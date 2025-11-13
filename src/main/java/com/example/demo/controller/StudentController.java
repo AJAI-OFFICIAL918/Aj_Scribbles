@@ -1,14 +1,12 @@
-package com.example.demo;
+package com.example.demo.controller;
 
-import com.example.demo.StudentRepo.Students;
+import com.example.demo.model.Students;
 import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.security.web.csrf.CsrfToken;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Stack;
 
 @RestController
 public class StudentController {

@@ -1,4 +1,4 @@
-package com.example.demo.StudentRepo;
+package com.example.demo.model;
 
 public class Students {
 
